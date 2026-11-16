@@ -72,3 +72,20 @@ next()                           nik                     string
 nextLine()                       Hello Java              string
 next().charAt(0)                 A                       char
 nextBoolean()                    true                    boolean
+OPERATORS:-
+1. Arithmetic Operators
+- +, -, *, /, %
+2. Relational Operators
+- ==, !=, >, <, >=, <=
+3. Logical Operators
+- &&, ||, !
+4. Assignment Operators
+- =, +=, -=, *=, /=, %=
+5. Unary Operators
+- ++, --, +, -, !
+6. Bitwise Operators
+- &, |, ^, ~
+7. Shift Operators
+- <<, >>, >>>
+8. Ternary Operator
+- ? :
