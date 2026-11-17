@@ -1,5 +1,93 @@
-Control Statements:
+==========Control Statements:=========
 it is divided into three statements
-1.conditional
-2.looping
-3.jumping
+1.conditional-if,ifelse,elseif ladder,nested if,switch
+2.looping-for,while,dowhile
+3.jumping-continue,break,return
+==========syntax for if:-===========
+if condition{
+//block of code
+}
+=>code:
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int n=sc.nextInt();
+        if(n>m){
+            System.out.println("True");
+        }
+}
+}
+=========Syntax for if-else=========
+if condition{
+//block of code
+}
+else{
+//block of code
+}
+=>code:
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        if(n>m){
+            System.out.println("True");
+        }
+        else{
+            System.out.println("False");
+        }
+    }
+}
+========Syntax for else if ladder===========
+if condition1{
+//block of code
+}
+else if condition2{
+//block of code
+}
+else if condition3{
+//block of code
+}
+else if condition4{
+//block of code
+}
+else{
+//block of code
+}
+=>code
+import java.util.Scanner;
+class marks {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        int marks = sc.nextInt();
+        if (marks >= 90 && marks <= 100) {
+            System.out.println("A");
+        }
+        else if (marks >= 80 && marks < 90) {
+            System.out.println("B");
+        }
+        else if (marks >= 70 && marks < 80) {
+            System.out.println("C");
+        }
+        else if (marks >= 60 && marks < 70) {
+            System.out.println("D");
+        }
+        else if (marks >= 0 && marks < 60) {
+            System.out.println("F");
+        }
+        else {
+            System.out.println("Invalid marks");
+        }
+    }
+}
+=====Syntax for Nested-if========
+if condition1{
+if condition2{
+\\block of code
+}
+\\block of code statement
