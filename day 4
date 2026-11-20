@@ -1,1 +1,30 @@
-
+types of classes:
+No.    Type	             Explanation
+1      Concrete Class	     A normal class that can create objects
+2      Abstract Class	     A class declared using abstract
+3      Final Class	     A class that cannot be inherited
+4      Static Nested Class   A static class declared inside another class
+5      Inner Class	     A non-static class inside another class
+6      Local Inner Class     A class declared inside a method
+7      Anonymous Inner Class A class without a name
+8      Enum class            
+9      Interface  
+Access modifiers
+1.public
+2.private
+3.default
+4.protected
+types of constructors
+1.default constructor
+2.paramatrized constructor
+3.No-Argument constructor
+functions:
+No-Arguments-No return value
+Arguments-return value
+No-Arguments-with return value
+Arguments-No return value
+OOPS
+1.encapsulation
+2.abstraction
+3.Inheritance
+4.polymorphism
